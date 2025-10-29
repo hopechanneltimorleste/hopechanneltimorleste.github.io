@@ -25,3 +25,34 @@ p {
   color: #6c757d;
   margin-bottom: 30px;
 }
+
+/* Button icon styles */
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* space between icon and label */
+}
+
+.btn-icon-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.btn-label {
+  line-height: 1;
+}
+
+/* Visible focus for accessibility */
+.btn:focus {
+  outline: 3px solid rgba(0,123,255,0.25);
+  outline-offset: 2px;
+}
+
+/* Small screens: allow the label to wrap if needed */
+@media (max-width: 400px) {
+  .btn-icon { gap: 0.4rem; }
+  .btn-icon-img { width: 18px; height: 18px; }
+}
