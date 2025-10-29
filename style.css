@@ -1,6 +1,6 @@
 body {
   /* Vertical gradient: light blue at the top → navy at the bottom */
-  background: linear-gradient(180deg, #1e9cd7 0%, #0d5373 100%);
+  background: linear-gradient(180deg, #bdeaff 0%, #64aafb 100%);
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   color: #ffffff; /* base text color for contrast against darker bottom */
