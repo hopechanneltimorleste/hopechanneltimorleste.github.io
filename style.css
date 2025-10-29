@@ -1,6 +1,6 @@
 body {
   /* Vertical gradient: light blue at the top → navy at the bottom */
-  background: linear-gradient(180deg, #dff6ff 0%, #012a4a 100%);
+  background: linear-gradient(180deg, #1e9cd7 0%, #0d5373 100%);
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   color: #ffffff; /* base text color for contrast against darker bottom */
@@ -39,8 +39,8 @@ p {
 }
 
 .btn-icon-img {
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
   object-fit: contain;
   display: inline-block;
 }
@@ -56,7 +56,14 @@ p {
 }
 
 /* Small screens: allow the label to wrap if needed */
-@media (max-width: 400px) {
-  .btn-icon { gap: 0.4rem; }
-  .btn-icon-img { width: 18px; height: 18px; }
+@media (max-width: 600px) {
+  .btn-icon { gap: 0.5rem; }
+  .btn-icon-img { width: 22px; height: 22px; }
+}
+
+/* Ensure button labels scale nicely */
+.btn-lg {
+  font-size: 1.05rem;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
 }
