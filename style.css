@@ -3,7 +3,7 @@ body {
   background: linear-gradient(180deg, #bdeaff 0%, #64aafb 100%);
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
-  color: #ffffff; /* base text color for contrast against darker bottom */
+  color: #111111; /* base text color for contrast against darker bottom */
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 h1 {
   font-size: 1.8rem;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #131111;
 }
 
 p {
